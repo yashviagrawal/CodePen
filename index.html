@@ -9,11 +9,13 @@
 
 <aside class="sidebar position-fixed top-0 left-0 overflow-auto h-100 float-left" id="show-side-navigation1">
   <div class="search position-relative text-center px-4 py-3 mt-2">
-    <input type="text" class="form-control w-100 border-0 bg-transparent" placeholder="Search here">
+    <input id="searchbar" name="search" type="text" class="form-control w-100 border-0 bg-transparent" placeholder="Search here" onkeyup="search_animal()">
   </div>
 
   <ul class="categories list-unstyled">
-    <li class="has-dropdown">
+
+
+    <li class="has-dropdown animals">
       <a href="#"> Dashboard</a>
       <ul class="sidebar-dropdown list-unstyled">
         <li><a href="#">Widget Dashboard</a></li>
@@ -21,28 +23,36 @@
         <li><a href="#">Real-Time Dashboard</a></li>
       </ul>
     </li>
-    <li class="">
+
+
+    <li class="animals">
       <a href="#"> About Us</a>
     </li>
-    <li class="">
+
+
+    <li class="animals">
         <a href="#"> Contact Us</a>
       </li>
-    <li class="has-dropdown">
+
+
+    <li class="has-dropdown animals">
       <a href="#"> Services</a>
       <ul class="sidebar-dropdown list-unstyled">
-        <li class="has-dropdown"><a href="#">Web Development</a>
+        <li class="has-dropdown animals"><a href="#">Web Development</a>
             <ul class="sidebar-dropdown list-unstyled">
                 <li><a href="#">React JS</a></li>
                 <li><a href="#">Angular JS</a></li>
               </ul>
         </li>
-        <li class="has-dropdown"><a href="#">Android Development</a>
+        <li class="has-dropdown animals"><a href="#">Android Development</a>
             <ul class="sidebar-dropdown list-unstyled">
                 <li><a href="#">React Native</a></li>
                 <li><a href="#">Flutter</a></li>
               </ul>
         </li>
-        <li><a href="#">DevOps</a></li>
+        <li class="animals"><a href="#">DevOps</a></li>
+
+
       </ul>
     </li>
   </ul>
@@ -65,6 +75,7 @@
 </section> -->
 
 <script src="./index.js"></script>
+<script src="./home.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.jshttps://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 

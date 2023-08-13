@@ -67,8 +67,8 @@ body {
 	font-size: .825rem;
 } */
 
-.sidebar .search .form-control ~ i {
-	color: #2b2f3a;
+.sidebar .search .form-control {
+	color: #ffffff;
 	right: 40px;
 	top: 22px;
 }
