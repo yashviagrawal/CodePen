@@ -29,14 +29,6 @@ body {
 	font-size: .925rem;
 }
 
-/* #wrapper {
-	margin-left: var(--sidebar-width);
-	transition: all .3s ease-in-out;
-}
-
-#wrapper.fullwidth {
-	margin-left: 0;
-} */
 
 .sidebar {
 	background-color: var(--sidebar-bg-color);
@@ -45,27 +37,6 @@ body {
 	transform: translateX(0);
 	z-index: 9999999
 }
-
-/* .sidebar .close-aside {
-	position: absolute;
-	top: 7px;
-	right: 7px;
-	cursor: pointer;
-	color: #EEE;
-}
-
-.sidebar .sidebar-header {
-	border-bottom: 1px solid #2a2b3c
-}
-
-.sidebar .sidebar-header h5 a {
-	color: var(--dk-gray-300)
-}
-
-.sidebar .sidebar-header p {
-	color: var(--dk-gray-400);
-	font-size: .825rem;
-} */
 
 .sidebar .search .form-control {
 	color: #ffffff;
